@@ -10,8 +10,8 @@ public class Sample {
    String name;
 
     public Sample(int roll, String name) {
-        this.roll = roll;
-        this.name = name;
+        this.roll = name;
+        this.name = roll;
     }
 
     public int getRoll() {
