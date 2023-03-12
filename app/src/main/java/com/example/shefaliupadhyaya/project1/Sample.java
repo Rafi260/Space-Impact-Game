@@ -7,11 +7,11 @@ import java.util.Random;
  */
 public class Sample {
    int roll;
-   String name;
+   int code;
 
-    public Sample(int roll, String name) {
+    public Sample(int roll, int code) {
         this.roll = name;
-        this.name = roll;
+        this.code = code;
     }
 
     public int getRoll() {
@@ -23,10 +23,10 @@ public class Sample {
     }
 
     public String getName() {
-        return name;
+        return code;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(int code) {
+        this.code = code;
     }
 }
